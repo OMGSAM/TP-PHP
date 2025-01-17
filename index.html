@@ -1,0 +1,13 @@
+<table id="patientsTable">
+    <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+        </tr>
+    </thead>
+    <tbody hx-get="get_patients.php" hx-trigger="load" hx-target="#patientsTable tbody">
+        
+    </tbody>
+</table>
+<div id="patientDetails"></div>
+<script src="https://unpkg.com/htmx.org"></script>
